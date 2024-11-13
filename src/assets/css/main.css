@@ -1,0 +1,7 @@
+@import 'fonts.css';
+@import "base.css";
+@import 'tailwind.css';
+
+.c-container {
+    @apply container mx-auto;
+}
