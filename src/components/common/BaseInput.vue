@@ -19,7 +19,9 @@ defineProps({
 
 <template>
   <div class="relative">
-    <label class="absolute top-2 left-4 text-[13px] text-gray-400" v-if="label">
+    <label
+      v-if="label"
+      class="absolute top-2 left-4 text-[13px] text-gray-400" >
       {{ label }}
     </label>
     <input

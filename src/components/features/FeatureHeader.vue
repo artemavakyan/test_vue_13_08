@@ -1,12 +1,7 @@
-<script setup lang="ts">
-
-import AppLogo from '@/components/common/AppLogo.vue'
-</script>
-
 <template>
   <header class="header py-6 shadow-custom">
     <div class="c-container flex gap-4 justify-between">
-      <AppLogo />
+      <img class="w-[100px] h-auto object-contain" src="@/assets/images/logo.jpg" alt="">
       <ul class="flex gap-4 items-center text-textGray">
         <li>
           <router-link to="/">
